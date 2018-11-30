@@ -1,4 +1,4 @@
 os: linux
-script:
+script: make clean test
 sudo: required
-install: 
+install: make dep
